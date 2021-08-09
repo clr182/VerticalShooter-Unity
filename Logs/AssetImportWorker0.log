@@ -15,11 +15,11 @@ C:/Users/chrus/VerticleShootEmUp
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50389
+57134
 Successfully changed project path to: C:/Users/chrus/VerticleShootEmUp
 C:/Users/chrus/VerticleShootEmUp
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 24.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001697 seconds.
+Registered in 0.001671 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 23.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 23.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.478 seconds
+- Completed reload, in  1.489 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003061 seconds.
+Registered in 0.003053 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.805 seconds
+- Completed reload, in  0.788 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -65,7 +65,7 @@ System memory in use before: 64.8 MB.
 System memory in use after: 64.8 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1823.
-Total: 1.737800 ms (FindLiveObjects: 0.148400 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.494700 ms  DeleteObjects: 0.063700 ms)
+Total: 1.947700 ms (FindLiveObjects: 0.171000 ms CreateObjectMapping: 0.030000 ms MarkObjects: 1.660900 ms  DeleteObjects: 0.084500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,105 +79,352 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007025 seconds 
-  Import took 0.009146 seconds .
+  path: Assets/Background
+  artifactKey: Guid(04a06e55553d8bb43b53e425d9bd9b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background using Guid(04a06e55553d8bb43b53e425d9bd9b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc64526f0497e0c5aa9417f69b29857a') in 0.006621 seconds 
+  Import took 0.008570 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.518084 seconds.
-  path: Assets/Player
-  artifactKey: Guid(459a5be7629fddb418c27eed75fc0ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player using Guid(459a5be7629fddb418c27eed75fc0ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563eccdf9fe20fba11211fce5494bfae') in 0.005285 seconds 
-  Import took 0.007634 seconds .
+  Time since last request: 4.275463 seconds.
+  path: Assets/Background/Background.mat
+  artifactKey: Guid(6e1aba6e2e6667c4fa43af76c6b20a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background/Background.mat using Guid(6e1aba6e2e6667c4fa43af76c6b20a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0d67fd75da68b5bc397743d0390fba') in 0.078734 seconds 
+  Import took 0.080994 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.307513 seconds.
-  path: Assets/Player/Sprite
-  artifactKey: Guid(730cda6a311770c49a6078e479fdb47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Sprite using Guid(730cda6a311770c49a6078e479fdb47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1150f3c02640354e568a494d4b4957') in 0.005398 seconds 
-  Import took 0.007571 seconds .
+  Time since last request: 458.849766 seconds.
+  path: Assets/Add-ons
+  artifactKey: Guid(7751a31ba4ba08d4aafe9311b68816b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add-ons using Guid(7751a31ba4ba08d4aafe9311b68816b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1da55ac06bcd09caeea16fad1fc4977') in 0.005838 seconds 
+  Import took 0.008368 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.352278 seconds.
-  path: Assets/Player/Animations
-  artifactKey: Guid(8b70801e4dc110e43b56c93ca081409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Animations using Guid(8b70801e4dc110e43b56c93ca081409b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b2e35607e6cd2d26590c8c301fd549') in 0.005289 seconds 
-  Import took 0.007538 seconds .
+  Time since last request: 0.000237 seconds.
+  path: Assets/Add-ons
+  artifactKey: Guid(7751a31ba4ba08d4aafe9311b68816b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Add-ons using Guid(7751a31ba4ba08d4aafe9311b68816b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1da55ac06bcd09caeea16fad1fc4977') in 0.001746 seconds 
+  Import took 0.003720 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.214778 seconds.
-  path: Assets/Player/Scripts
-  artifactKey: Guid(68d96a352dbca4747a4d27ff52bc5f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Scripts using Guid(68d96a352dbca4747a4d27ff52bc5f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a084f9b05f281428edf3aa08e4a1605') in 0.005129 seconds 
-  Import took 0.007565 seconds .
+  Time since last request: 473.922534 seconds.
+  path: Assets/Pick-ups/Coin.png
+  artifactKey: Guid(c60645d11c6a717439b9185e42278d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pick-ups/Coin.png using Guid(c60645d11c6a717439b9185e42278d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61ca1c39a43506cc7b48f13989d8611') in 0.043607 seconds 
+  Import took 0.046654 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.566542 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(fa7f3f3bf20ca384c9dcd5ffd7cda575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(fa7f3f3bf20ca384c9dcd5ffd7cda575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ec8c02ab58aaa6a40a34584e37ab6f') in 0.005359 seconds 
-  Import took 0.007728 seconds .
+  Time since last request: 0.014467 seconds.
+  path: Assets/Pick-ups/Coin.png
+  artifactKey: Guid(c60645d11c6a717439b9185e42278d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pick-ups/Coin.png using Guid(c60645d11c6a717439b9185e42278d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61ca1c39a43506cc7b48f13989d8611') in 0.007959 seconds 
+  Import took 0.010967 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.900820 seconds.
-  path: Assets/Player/Sprites
-  artifactKey: Guid(730cda6a311770c49a6078e479fdb47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player/Sprites using Guid(730cda6a311770c49a6078e479fdb47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f22430d1bfba8e7978c7d178a853c5') in 0.006090 seconds 
-  Import took 0.008847 seconds .
+  Time since last request: 11.374313 seconds.
+  path: Assets/Pick-ups/Coin.png
+  artifactKey: Guid(c60645d11c6a717439b9185e42278d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pick-ups/Coin.png using Guid(c60645d11c6a717439b9185e42278d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53f23054d980155174ca84f38b7a55e') in 0.010600 seconds 
+  Import took 0.013083 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1423 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 2.123600 ms (FindLiveObjects: 0.185800 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.840000 ms  DeleteObjects: 0.064600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1433 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 1.787800 ms (FindLiveObjects: 0.183200 ms CreateObjectMapping: 0.032900 ms MarkObjects: 1.527700 ms  DeleteObjects: 0.043200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003005 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEngine.Advertisements.Editor.PostProcessBuildPlist:PlistContainsAdNetworkId due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1590 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2053.
+Total: 1.959400 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.682500 ms  DeleteObjects: 0.062300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003269 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEngine.Advertisements.Editor.PostProcessBuildPlist:PlistContainsAdNetworkId due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:LoadAssetAtPath<UnityEngine.Texture2D> (string)
+Cinemachine.Editor.CinemachineSettings:get_CinemachineLogoTexture () (at Library/PackageCache/com.unity.cinemachine@2.6.5/Editor/Windows/CinemachineSettings.cs:205)
+Cinemachine.Editor.CinemachineSettings:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.5/Editor/Windows/CinemachineSettings.cs:237)
+Cinemachine.CinemachineColliderPrefs:.cctor () (at Library/PackageCache/com.unity.cinemachine@2.6.5/Editor/Windows/CinemachineColliderPrefs.cs:61)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.cinemachine@2.6.5/Editor/Windows/CinemachineSettings.cs line 205]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1736 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.2 MB.
+System memory in use after: 79.2 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2201.
+Total: 2.301300 ms (FindLiveObjects: 0.211400 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.969700 ms  DeleteObjects: 0.079200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116.772987 seconds.
+  path: Assets/Pick-ups/Coin.png
+  artifactKey: Guid(c60645d11c6a717439b9185e42278d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pick-ups/Coin.png using Guid(c60645d11c6a717439b9185e42278d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e52eac594c601695f675a61e64c418') in 0.046542 seconds 
+  Import took 0.049453 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.844527 seconds.
-  path: Assets/Enemies
-  artifactKey: Guid(0915e6caa07b7de4ea0842eb64e784dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies using Guid(0915e6caa07b7de4ea0842eb64e784dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fda97c60f54d91bb5d5d5496a80587b') in 0.005866 seconds 
-  Import took 0.008077 seconds .
+  Time since last request: 50.706844 seconds.
+  path: Assets/New Animator Controller.controller
+  artifactKey: Guid(8ecd45eec5ba4a44caa59bd5a5a3b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Animator Controller.controller using Guid(8ecd45eec5ba4a44caa59bd5a5a3b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce0eeccb50ba1cfded512d415dbca36') in 0.009087 seconds 
+  Import took 0.011731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.470427 seconds.
-  path: Assets/Enemies/Enemy 1
-  artifactKey: Guid(ba66484dccc66f84db210a04c349041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Enemy 1 using Guid(ba66484dccc66f84db210a04c349041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0923d5937820ef6e57b8808e5f7a00e') in 0.005444 seconds 
-  Import took 0.007649 seconds .
+  Time since last request: 11.400813 seconds.
+  path: Assets/Animator Controllers
+  artifactKey: Guid(464dfd7026fb31d42839da893da59430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animator Controllers using Guid(464dfd7026fb31d42839da893da59430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e08a4a53f36655f0172971c752a7a4') in 0.004837 seconds 
+  Import took 0.007399 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.138805 seconds.
-  path: Assets/Enemies/Enemy 2
-  artifactKey: Guid(8f96af35059527a4b9ee0e8a2fafa2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies/Enemy 2 using Guid(8f96af35059527a4b9ee0e8a2fafa2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89160f33411d4443a7b37e559ef697') in 0.005825 seconds 
-  Import took 0.008058 seconds .
+  Time since last request: 8.808692 seconds.
+  path: Assets/Coin Controller.controller
+  artifactKey: Guid(8ecd45eec5ba4a44caa59bd5a5a3b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Coin Controller.controller using Guid(8ecd45eec5ba4a44caa59bd5a5a3b220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f633ca34c398aa5d98bf2b0eb8fc649') in 0.006441 seconds 
+  Import took 0.009224 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.789915 seconds.
-  path: Assets/Pick-ups
-  artifactKey: Guid(d9da1e15732f8ac44b88451080281b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pick-ups using Guid(d9da1e15732f8ac44b88451080281b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8291b4bedd3b8cf4637a633ca8de9098') in 0.007577 seconds 
-  Import took 0.009963 seconds .
+  Time since last request: 228.590659 seconds.
+  path: Assets/Pick-ups/Coin.cs
+  artifactKey: Guid(457cfca86875347408ead8d7ca2e8cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pick-ups/Coin.cs using Guid(457cfca86875347408ead8d7ca2e8cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a800a0ae264a33c90d45a1086da57e27') in 0.009004 seconds 
+  Import took 0.011979 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 8.270009 seconds.
-  path: Assets/Misc
-  artifactKey: Guid(808c40bdd72ad4a4fbcdfa5dd379625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Misc using Guid(808c40bdd72ad4a4fbcdfa5dd379625c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3900f7aaf1c79e7e47cc933af7a4f757') in 0.006912 seconds 
-  Import took 0.009264 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003090 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEngine.Advertisements.Editor.PostProcessBuildPlist:PlistContainsAdNetworkId due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.802 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1738 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.3 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2209.
+Total: 2.202300 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.884200 ms  DeleteObjects: 0.076500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 8.592042 seconds.
-  path: Assets/Pick-ups/New Folder
-  artifactKey: Guid(f3f66f1103b307e4dab7a865d5f45a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pick-ups/New Folder using Guid(f3f66f1103b307e4dab7a865d5f45a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b7bdd0793f9e5f7c072049bf0befee') in 0.005632 seconds 
-  Import took 0.008046 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003148 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEngine.Advertisements.Editor.PostProcessBuildPlist:PlistContainsAdNetworkId due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
 
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.3 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2212.
+Total: 2.281500 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.958500 ms  DeleteObjects: 0.080400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003109 seconds.
+Begin MonoManager ReloadAssembly
+Error: Could not load signature of UnityEngine.Advertisements.Editor.PostProcessBuildPlist:PlistContainsAdNetworkId due to: Could not load file or assembly 'UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:UnityEditor.iOS.Extensions.Xcode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
+
+Unloading broken assembly Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll, this assembly can cause crashes in the runtime
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.809 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.3 MB.
+System memory in use after: 79.4 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2215.
+Total: 2.065600 ms (FindLiveObjects: 0.181300 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.769100 ms  DeleteObjects: 0.075900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
