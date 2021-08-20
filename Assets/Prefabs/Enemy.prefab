@@ -93,6 +93,7 @@ MonoBehaviour:
   canShoot: 0
   bullet: {fileID: 8573654922058421741, guid: fc35a1c764a2aeb419743c1740c70deb, type: 3}
   explosion: {fileID: 7507637566931406600, guid: 05c1c8799ba133f44ad422869561c167, type: 3}
+  coin: {fileID: 88997972720572006, guid: fde1617ee58e5de40b19dff4e5afdef3, type: 3}
   score: 100
 --- !u!114 &4512068436389026048
 MonoBehaviour:

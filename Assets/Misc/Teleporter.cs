@@ -17,7 +17,6 @@ public class Teleporter : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Debug.Log("tele enter");
             collision.transform.position = destination.position;
         }
     }

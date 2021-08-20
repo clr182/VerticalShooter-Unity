@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float speed;
 
+    public int coins;
+
     private int health = 3;
     private int delay = 0;
     public int delayTime = 30;

@@ -3,40 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
-{ 
-
-    float points = 0;
-    float highscore;
-    GameObject playerObject;
+{
 
 
+    [SerializeField] private Player player;
+    [SerializeField] private Spawner spawner;
 
-    private void Awake()
-    {
-        playerObject = GameObject.Find("Player");
-    }
 
     private void Start()
     {
+        player = new Player();
+        spawner = new Spawner();
     }
-
-
-
-
-    void SetHighScore()
-    {
-        if (points > highscore)
-        {
-            highscore = points;
-        }
-    }
-
-    void EndGame()
-    {
-        if (playerObject.gameObject.GetComponent<Player>().getHealth() < 1)
-        {
-
-        }
-    }
-
 }

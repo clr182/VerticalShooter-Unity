@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
 {
     public float fireRate, health;
     public bool canShoot;
-    public GameObject bullet, explosion;
+    public GameObject bullet, explosion, coin;
     public int score;
 
 
@@ -44,6 +44,7 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
         PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
         Instantiate(explosion, transform.position, Quaternion.identity);
+        Instantiate(coin, transform.position, Quaternion.identity);
     }
 
     public void Damage()
@@ -58,4 +59,7 @@ public class Enemy : MonoBehaviour
         GameObject temp = (GameObject)Instantiate(bullet, transform.position, Quaternion.identity);
         temp.GetComponent<Bullet>().ChangeDirection();
     }
+
+
+
 }
