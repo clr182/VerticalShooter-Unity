@@ -22,7 +22,6 @@ public class CurrencyPickup : MonoBehaviour
             if(currentObject == PickupObject.COIN)
             {
                 player.coins += pickupQuantity;
-                Debug.Log("here");
             }
             Destroy(gameObject);
             

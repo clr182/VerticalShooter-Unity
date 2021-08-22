@@ -189,6 +189,7 @@ MonoBehaviour:
   firePoint_right: {fileID: 0}
   bullet: {fileID: 8573654922058421741, guid: fc35a1c764a2aeb419743c1740c70deb, type: 3}
   speed: 20
+  coins: 0
   delayTime: 100
   canShootLeft: 0
   canShootMiddle: 1

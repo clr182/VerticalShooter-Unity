@@ -112,6 +112,7 @@
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Data\CloudPrefs\CloudFloat.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Data\CloudPrefs\CloudLong.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Quick Start Scripts\DeactivateOnAwakeIfNotGoogle.cs" />
+    <Compile Include="Assets\Pick-ups\RandomDrops.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Utils\GoogleAchievementUtils.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Utils\GoogleLeaderboardUtils.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\GameInfo.cs" />
@@ -121,13 +122,14 @@
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\AchievementsBridge.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Native\PInvoke\PlayerManager.cs" />
     <Compile Include="Assets\Player\Scripts\GyroControls.cs" />
+    <Compile Include="Assets\Enemies\EnemyMovementScripts\EnemyMovementZigZag.cs" />
     <Compile Include="Assets\Misc\BendingManager.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Android\AndroidClient.cs" />
     <Compile Include="Assets\Game\GameManager.cs" />
     <Compile Include="Assets\Player\Scripts\Player.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\CloudOnceExceptions.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Interfaces\IAchievementUtils.cs" />
-    <Compile Include="Assets\Enemies\EnemyMovementScripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Misc\DownwardMovement.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\ISocialPlatform\PlayGamesUserProfile.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Data\CloudPrefs\CloudCurrencyInt.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Native\Platforms\Android\AndroidClient.cs" />
@@ -187,6 +189,7 @@
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\BasicApi\PlayGamesClientConfiguration.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Utils\EditorLeaderboardUtils.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\CloudProviderBase.cs" />
+    <Compile Include="Assets\EventManager.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Data\CloudPrefs\CloudString.cs" />
     <Compile Include="Assets\Enemies\EnemyMovementScripts\EnemyMoveSin.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Native\NativeRealtimeMultiplayerClient.cs" />
@@ -196,6 +199,7 @@
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Android\AndroidEventsClient.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Data\CloudRequestResult.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\OurUtils\PlayGamesHelperObject.cs" />
+    <Compile Include="Assets\Pick-ups\CurrencyPickup.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Data\CloudPrefs\CloudCurrencyFloat.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Data\CloudPrefs\CloudUInt.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\NearbyConnectionClientFactory.cs" />
@@ -215,8 +219,8 @@
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Data\CloudPrefs\PersistentCurrency.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Native\PInvoke\NativePlayerStats.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Native\PInvoke\TurnBasedManager.cs" />
-    <Compile Include="Assets\EnemyMovementZigZag.cs" />
-    <Compile Include="Assets\Pick-ups\CurrencyPickup.cs" />
+    <Compile Include="Assets\Coin.cs" />
+    <Compile Include="Assets\RotationMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Data\Templates\LeaderboardsPropertyTemplate.cs.txt" />

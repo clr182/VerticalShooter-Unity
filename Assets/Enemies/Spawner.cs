@@ -17,9 +17,9 @@ public class Spawner : MonoBehaviour
 
     void spawnEnemy()
     {
-        for (int i = 0; i < waves; i++) {
+        for (int i = 0; i < waves; i++) 
+        {
             Instantiate(enemies[(int)Random.Range(0, enemies.Length)], new Vector3(Random.Range(-4, 4), 7, 0), Quaternion.identity);
-      
-            }
+        }
     }
 }

@@ -15,11 +15,13 @@ public class TouchControls : MonoBehaviour
 
     void Update()
     {
-        Touch touch = Input.GetTouch(0);
-        Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-        touchPosition.z = 0;
-        touchPosition.y = -8.26f;
-        transform.position = touchPosition;
-
+        if (Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
+            touchPosition.z = 0;
+            touchPosition.y = -8.26f;
+            transform.position = touchPosition;
+        }
     }
 }

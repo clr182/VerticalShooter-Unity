@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Enemy : MonoBehaviour
     public bool canShoot;
     public GameObject bullet, explosion, coin;
     public int score;
+
 
 
 
@@ -41,10 +43,11 @@ public class Enemy : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+        EventManager.current.DropCoinEvent(gameObject.transform);
         PlayerPrefs.SetInt("Score", PlayerPrefs.GetInt("Score") + score);
+
         Instantiate(explosion, transform.position, Quaternion.identity);
-        Instantiate(coin, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
     public void Damage()

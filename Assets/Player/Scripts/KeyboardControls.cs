@@ -22,17 +22,25 @@ public class KeyboardControls : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        rb.AddForce(new Vector2(Input.GetAxis("Horizontal") * player.getSpeed(), 0));
+        //rb.AddForce(new Vector2(Input.GetAxis("Horizontal") * player.getSpeed(), 0));
+
+
     }
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.Space) && player.getDelay() > player.getDelayTime())
+        Vector2 pos = transform.position;
+
+        if (Input.GetKey("a"))
         {
-            player.Shoot();
+            pos.x -= player.getSpeed() * Time.deltaTime;
+        }
+        if (Input.GetKey("d"))
+        {
+            pos.x += player.getSpeed() * Time.deltaTime;
         }
 
-        player.setDelay(player.getDelay()+1);
+        transform.position = pos;
     }
 
 }
