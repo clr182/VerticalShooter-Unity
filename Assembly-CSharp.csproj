@@ -64,6 +64,7 @@
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Native\PInvoke\GameServices.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\UnifiedAchievement.cs" />
     <Compile Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Data\DataManager.cs" />
+    <Compile Include="Assets\RotationMovement.cs" />
     <Compile Include="Assets\Misc\KillWall.cs" />
     <Compile Include="Assets\Enemies\Spawner.cs" />
     <Compile Include="Assets\Misc\ButtonFunction.cs" />
@@ -220,7 +221,6 @@
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Native\PInvoke\NativePlayerStats.cs" />
     <Compile Include="Assets\Add-ons\Extensions\GooglePlayGames\Platforms\Native\PInvoke\TurnBasedManager.cs" />
     <Compile Include="Assets\Coin.cs" />
-    <Compile Include="Assets\RotationMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Data\Templates\LeaderboardsPropertyTemplate.cs.txt" />
@@ -228,6 +228,7 @@
     <None Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Data\Templates\AchievementsPropertyTemplate.cs.txt" />
     <None Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Data\Templates\LeaderboardsTemplate.cs.txt" />
     <None Include="Assets\Add-ons\Extensions\CloudOnce\readme.txt" />
+    <None Include="Assets\MainMenuTemplate.uxml" />
     <None Include="Assets\Add-ons\Extensions\CloudOnce\link.xml" />
     <None Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Data\Templates\CloudVariablesTemplate.cs.txt" />
     <None Include="Assets\Add-ons\Extensions\CloudOnce\Internal\Data\Templates\CloudIDsTemplate.cs.txt" />
@@ -366,7 +367,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsNativeModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
@@ -438,7 +439,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsSamplesModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
@@ -883,6 +884,18 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsInputSystemModule">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UIElementsInputSystemModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

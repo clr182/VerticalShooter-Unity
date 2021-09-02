@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Toggle.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\ScrollRect.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Text.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\GraphicRaycaster.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Image.cs" />
@@ -132,7 +133,6 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Dropdown.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\GraphicRebuildTracker.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Culling\Clipping.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\ScrollRect.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Utility\ObjectPool.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\Raycasters\BaseRaycaster.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\MaskableGraphic.cs" />
@@ -276,7 +276,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsNativeModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
@@ -348,7 +348,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UIElementsSamplesModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>

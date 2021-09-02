@@ -645,7 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0cb375693c6454e80976392e6b5dd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 5
+  spawnRate: 3
   enemies:
   - {fileID: 1782053068208071273, guid: 8c2c98766a44fa541816e3a42eae7ba2, type: 3}
   - {fileID: 145396702500119821, guid: ea2fa720300fbc34a82583047b533046, type: 3}
@@ -675,6 +675,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1080915048, guid: 57fdf0c6b008b994f8d84ce5c2fbb3af, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1080915049, guid: 57fdf0c6b008b994f8d84ce5c2fbb3af, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 993043473578948668, guid: 57fdf0c6b008b994f8d84ce5c2fbb3af, type: 3}
       propertyPath: m_Name
       value: Player
@@ -682,6 +690,18 @@ PrefabInstance:
     - target: {fileID: 993043473578948670, guid: 57fdf0c6b008b994f8d84ce5c2fbb3af, type: 3}
       propertyPath: speed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 993043473578948670, guid: 57fdf0c6b008b994f8d84ce5c2fbb3af, type: 3}
+      propertyPath: canShootLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 993043473578948670, guid: 57fdf0c6b008b994f8d84ce5c2fbb3af, type: 3}
+      propertyPath: canShootRight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 993043473578948670, guid: 57fdf0c6b008b994f8d84ce5c2fbb3af, type: 3}
+      propertyPath: canShootMiddle
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 993043473578948671, guid: 57fdf0c6b008b994f8d84ce5c2fbb3af, type: 3}
       propertyPath: m_RootOrder
